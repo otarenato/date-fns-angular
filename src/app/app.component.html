@@ -1,0 +1,19 @@
+<div class="container">
+  <form formGroup="dateForm">
+    <div class="row mt-50">
+      <div class="col-2">
+        <label for="datainicial" class="form-label">Data inicial</label>
+        <input id="datainicial" class="form-control" type="text" formControlName="dataInicial">
+      </div>
+    </div>
+  </form>
+  <div class="row">
+    <div class="col-12">
+      <p>{{ firstDate }}</p>
+      <p>{{ lastDate }}</p>
+      <p>{{ dateToday }}</p>
+      <p>{{ relative }}</p>
+    </div>
+  </div>
+</div>
+
